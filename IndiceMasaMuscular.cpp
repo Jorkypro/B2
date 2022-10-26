@@ -1,4 +1,4 @@
-//Creado por Wilson Said Morales
+//Creado  por Joky_Proaño
 #ifdef __MSDOS__
     #include <iostream.h>
     #include <stdlib.h>
