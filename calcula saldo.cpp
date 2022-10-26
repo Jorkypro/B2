@@ -3,17 +3,17 @@
 using namespace std;
 int main ()
 {
-	float MPLA_x,MPLA_s=0;
-	int MPLA_i=0,MPLA_l;
-	cout<<"Ingrese cantidad de egresos (l): ";cin>>MPLA_l;
-	cout<<"Ingrese saldo inicial (s): ";cin>>MPLA_s;
+	float x,s=0;
+	int i=0,l;
+	cout<<"Ingrese cantidad de egresos (l): ";cin>>l;
+	cout<<"Ingrese saldo inicial (s): ";cin>>s;
 	
 	do{
-	cout<<"Ingrese egreso(x): ";cin>>MPLA_x;
-	MPLA_i=MPLA_i+1;
-	MPLA_s=MPLA_s+MPLA_x;
+	cout<<"Ingrese egreso(x): ";cin>>x;
+	i=i+1;
+	s=s+x;
 
-	}while(MPLA_i<MPLA_l);
-	cout<<"El saldo final es: "<<MPLA_s<<endl;
+	}while(i<l);
+	cout<<"El saldo final es: "<<s<<endl;
 	return 0;
 }
