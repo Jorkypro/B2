@@ -1,20 +1,34 @@
 //Creado por Jorky_Proaño
-#include <iostream>
-using namespace std;
-int main ()
+# incluir < iostream > 
+utilizando el espacio de  nombres  estándar ;
+int  principal ()
+
 {
-	float MPLA_x,MPLA_s=0,MPLA_vb,MPLA_piva=12,MPLA_viva,MPLA_pdesc=10,MPLA_vdesc,MPLA_vn;
-	int MPLA_i=0,MPLA_l;
-	cout<<"Ingrese l: ";cin>>MPLA_l;
-	do{
-		cout<<"Ingrese x: ";cin>>MPLA_x;
-		MPLA_i=MPLA_i+1;
-		MPLA_s=MPLA_s+MPLA_x;
-	}while(MPLA_i<MPLA_l);
-	MPLA_vb=MPLA_s;
-	MPLA_viva=MPLA_vb*MPLA_piva/100;
-	MPLA_vdesc=MPLA_vb*MPLA_pdesc/100;
-	MPLA_vn=MPLA_vb+MPLA_viva-MPLA_vdesc;
-	cout<<"El valor a pagar es de: "<<MPLA_vn<<endl;
-	return 0;
+
+float x, s= 0 , vb, piva= 12 , viva, pdesc= 10 , vdesc, vn;
+
+int i= 0 ,l;
+
+cout<< " Ingreso l: " ; cin>>l;
+
+hacer {
+
+cout<< " Ingreso x: " ; cin>>x;
+
+s=s+x;
+
+} mientras (i<l);
+
+vb=s;
+
+viva=vb * piva/ 100 ;
+
+vdesc=vb * pdesc/ 100 ;
+
+vn=vb+viva-vdesc;
+
+cout<< " El valor a pagar es de : " <<vn<<endl<<endl;
+
+devolver  0 ;
+
 }
